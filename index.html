@@ -3,73 +3,137 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Allgemeine Geschäftsbedingungen (AGB) - Jobcenter Guru</title>
+    <title>AGB - Jobcenter Guru</title>
     <style>
-        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; margin: 20px; line-height: 1.6; color: #333; max-width: 800px; margin: 0 auto; }
-        h1 { font-size: 24px; border-bottom: 2px solid #0056b3; padding-bottom: 10px; color: #0056b3; }
-        h2 { font-size: 18px; margin-top: 25px; color: #444; background-color: #f9f9f9; padding: 5px; border-left: 4px solid #0056b3; }
-        p, li { font-size: 14px; }
-        ul, ol { margin-left: 20px; padding-left: 0; }
-        li { margin-bottom: 8px; }
-        strong { font-weight: 700; color: #000; }
-        .disclaimer-box { background-color: #ffebee; border: 1px solid #ef9a9a; color: #c62828; padding: 15px; border-radius: 4px; margin: 20px 0; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            color: #333;
+            line-height: 1.5;
+            font-size: 14px;
+            margin: 0;
+            padding: 20px;
+            background-color: #fff;
+        }
+        h1 {
+            font-size: 22px;
+            font-weight: 600;
+            margin-bottom: 20px;
+            color: #111;
+        }
+        h2 {
+            font-size: 16px;
+            font-weight: 600;
+            margin-top: 30px;
+            margin-bottom: 10px;
+            color: #111;
+            border-bottom: 1px solid #eee;
+            padding-bottom: 5px;
+        }
+        p {
+            margin-bottom: 15px;
+            text-align: justify;
+        }
+        ul {
+            padding-left: 20px;
+            margin-bottom: 15px;
+        }
+        li {
+            margin-bottom: 5px;
+        }
+        a {
+            color: #007bff;
+            text-decoration: none;
+        }
+        /* Unauffällige Hervorhebung für rechtlich Relevantes */
+        strong {
+            font-weight: 600;
+            color: #000;
+        }
     </style>
 </head>
 <body>
 
-<h1>Allgemeine Geschäftsbedingungen (AGB)</h1>
-<p><em>Stand: 10.12.2025</em></p>
+    <h1>Allgemeine Geschäftsbedingungen</h1>
+    <p>Stand: 10.12.2025</p>
 
-<h2>1. Geltungsbereich und Anbieter</h2>
-<p>1.1. Diese Allgemeinen Geschäftsbedingungen (AGB) gelten für die Nutzung der mobilen Applikation „Jobcenter Guru“ (nachfolgend „App“), betrieben von [Dein Vorname Nachname / Firmenname, Anschrift, E-Mail] (nachfolgend „Anbieter“).</p>
-<p>1.2. Abweichende Bedingungen des Nutzers werden nicht anerkannt, es sei denn, der Anbieter stimmt ihrer Geltung ausdrücklich schriftlich zu.</p>
+    <h2>§ 1 Geltungsbereich und Anbieter</h2>
+    <p>
+        (1) Diese Allgemeinen Geschäftsbedingungen (nachfolgend „AGB“) regeln das Vertragsverhältnis zwischen dem Betreiber der App „Jobcenter Guru“ (nachfolgend „Anbieter“) und den Nutzern der App (nachfolgend „Nutzer“).
+    </p>
+    <p>
+        (2) Der Anbieter erbringt seine Leistungen ausschließlich auf Grundlage dieser AGB. Entgegenstehende oder von diesen AGB abweichende Bedingungen des Nutzers werden nicht anerkannt.
+    </p>
 
-<div class="disclaimer-box">
-    <strong>WICHTIGER HINWEIS ZUM LEISTUNGSGEGENSTAND (KEINE RECHTSBERATUNG):</strong><br>
-    Die App bietet eine automatisierte Analyse von Texten und Dokumenten mithilfe Künstlicher Intelligenz (KI). 
-    <strong>Die Ergebnisse der App stellen keine Rechtsberatung nach dem Rechtsdienstleistungsgesetz (RDG) dar.</strong> 
-    Die App ersetzt keinesfalls die individuelle Beratung durch einen Rechtsanwalt oder eine Sozialberatungsstelle. Die Nutzung der Ergebnisse erfolgt auf eigenes Risiko des Nutzers.
-</div>
+    <h2>§ 2 Leistungsgegenstand und Funktionsweise</h2>
+    <p>
+        (1) Die App bietet eine automatisierte Assistenzfunktion zur Analyse und Erstellung von Texten im Kontext von Behördenangelegenheiten. Hierfür kommen Technologien der künstlichen Intelligenz (KI) zum Einsatz, die über Schnittstellen (APIs) von Drittanbietern (Google Cloud / Vertex AI) bereitgestellt werden.
+    </p>
+    <p>
+        (2) <strong>Keine Rechtsberatung:</strong> Der Anbieter weist ausdrücklich darauf hin, dass die App keine Rechtsberatung im Sinne des Rechtsdienstleistungsgesetzes (RDG) erbringt. Die durch die KI generierten Ausgaben basieren auf statistischen Wahrscheinlichkeiten und dienen lediglich als unverbindliche Orientierungshilfe oder Formulierungsvorschlag. Sie ersetzen keine Prüfung durch einen Rechtsanwalt oder eine anerkannte Beratungsstelle.
+    </p>
+    <p>
+        (3) Aufgrund der technischen Eigenschaften generativer KI kann nicht ausgeschlossen werden, dass die App in Einzelfällen fehlerhafte, veraltete oder erfundene Informationen („Halluzinationen“) ausgibt. Der Nutzer ist verpflichtet, alle Ergebnisse eigenverantwortlich auf Plausibilität zu prüfen.
+    </p>
 
-<h2>2. Leistungsbeschreibung und Technische Grundlagen</h2>
-<p>2.1. <strong>KI-Technologie:</strong> Die App ermöglicht es dem Nutzer, Fragen zu stellen oder Dokumente (z.B. Fotos von Bescheiden) hochzuladen. Diese Eingaben werden über eine Schnittstelle (API) an KI-Modelle von Google (Vertex AI / Gemini Modelle) gesendet und verarbeitet.</p>
-<p>2.2. <strong>Keine Erfolgsgarantie:</strong> Der Anbieter schuldet die technische Verfügbarkeit der App und die Übermittlung der Daten an die KI, jedoch keinen bestimmten inhaltlichen Erfolg (z.B. Erfolg eines Widerspruchs beim Jobcenter). Es wird ausdrücklich darauf hingewiesen, dass KI-Systeme „halluzinieren“ können (d.h. plausibel klingende, aber faktisch falsche Texte erzeugen).</p>
-<p>2.3. <strong>Server und Datenverarbeitung:</strong> Die App-Server des Anbieters stehen in Deutschland. Der Nutzer nimmt jedoch zur Kenntnis, dass für die KI-Generierung (Leistungserbringung) Daten an die Google Cloud Platform (Vertex AI) übermittelt werden müssen. Diese Verarbeitung erfolgt global, entsprechend der Infrastruktur von Google.</p>
+    <h2>§ 3 Nutzerkonto und Pflichten des Nutzers</h2>
+    <p>
+        (1) Zur Nutzung der App kann eine Registrierung erforderlich sein. Der Nutzer ist verpflichtet, seine Zugangsdaten geheim zu halten und vor dem Zugriff Dritter zu schützen.
+    </p>
+    <p>
+        (2) Es ist dem Nutzer untersagt, die App für rechtswidrige Zwecke zu missbrauchen, insbesondere zur Erstellung von betrügerischen Dokumenten oder zur Beleidigung Dritter.
+    </p>
 
-<h2>3. Registrierung und Nutzungspflichten</h2>
-<p>3.1. Die Nutzung der App ist nur voll geschäftsfähigen Personen gestattet.</p>
-<p>3.2. Der Nutzer verpflichtet sich, wahrheitsgemäße Angaben zu machen und seine Zugangsdaten geheim zu halten.</p>
-<p>3.3. <strong>Verbotene Inhalte:</strong> Es ist untersagt, Inhalte hochzuladen, die gegen gesetzliche Vorschriften verstoßen, Rechte Dritter verletzen oder Schadsoftware enthalten.</p>
+    <h2>§ 4 Inhalte und Nutzungsrechte</h2>
+    <p>
+        (1) Der Nutzer behält die Rechte an den von ihm in die App eingegebenen Texten und hochgeladenen Bilddateien.
+    </p>
+    <p>
+        (2) Durch das Hochladen von Inhalten (z.B. Fotos von Bescheiden) räumt der Nutzer dem Anbieter das räumlich und zeitlich auf die Dauer der Nutzung beschränkte Recht ein, diese Inhalte technisch zu verarbeiten, zu vervielfältigen und an den für die Analyse notwendigen KI-Dienstleister (Google Vertex AI) zu übermitteln.
+    </p>
+    <p>
+        (3) <strong>Rechtegarantie:</strong> Der Nutzer versichert, dass er über die notwendigen Rechte an den hochgeladenen Dokumenten verfügt und durch das Hochladen keine Rechte Dritter (insbesondere Urheber- oder Persönlichkeitsrechte sowie Datenschutzrechte abgebildeter Personen) verletzt.
+    </p>
+    <p>
+        (4) Der Nutzer stellt den Anbieter von allen Ansprüchen Dritter frei, die diese aufgrund einer Verletzung ihrer Rechte durch die vom Nutzer eingestellten Inhalte gegen den Anbieter geltend machen.
+    </p>
 
-<h2>4. Urheberrechte und Nutzerinhalte (User Generated Content)</h2>
-<p>4.1. <strong>Rechtegarantie:</strong> Lädt der Nutzer Dokumente oder Bilder hoch (z.B. Fotos von Jobcenter-Briefen), versichert er, dass er dazu berechtigt ist. Dies gilt insbesondere für das Recht am eigenen Bild sowie Datenschutzrechte, falls Daten Dritter (z.B. Sachbearbeiter, Familienmitglieder) sichtbar sind.</p>
-<p>4.2. <strong>Datensparsamkeit:</strong> Der Nutzer ist verpflichtet, sensible Daten Dritter (z.B. Namen von Sachbearbeitern, Telefonnummern) vor dem Hochladen zu schwärzen.</p>
-<p>4.3. <strong>Freistellung:</strong> Der Nutzer stellt den Anbieter von sämtlichen Ansprüchen Dritter frei, die diese wegen einer Rechtsverletzung durch die vom Nutzer eingestellten Inhalte gegen den Anbieter geltend machen.</p>
+    <h2>§ 5 Preise und Zahlungsbedingungen</h2>
+    <p>
+        (1) Die Nutzung der Basisfunktionen ist in der Regel kostenlos. Erweiterte Funktionen können kostenpflichtig als In-App-Kauf oder Abonnement erworben werden.
+    </p>
+    <p>
+        (2) Für kostenpflichtige Dienste gelten die im jeweiligen App-Store (Apple App Store / Google Play Store) angezeigten Preise und Zahlungsbedingungen.
+    </p>
 
-<h2>5. Preise und Zahlungsbedingungen</h2>
-<p>5.1. Soweit die App kostenpflichtige Funktionen (In-App-Käufe, Abonnements) anbietet, gelten die zum Zeitpunkt des Vertragsschlusses in der App ausgewiesenen Preise. Alle Preise verstehen sich inklusive der gesetzlichen Mehrwertsteuer.</p>
-<p>5.2. Die Abrechnung erfolgt über den jeweiligen App-Store-Anbieter (Apple App Store / Google Play Store) nach deren Bedingungen.</p>
+    <h2>§ 6 Haftung</h2>
+    <p>
+        (1) Der Anbieter haftet unbeschränkt für Vorsatz und grobe Fahrlässigkeit sowie für Schäden aus der Verletzung des Lebens, des Körpers oder der Gesundheit.
+    </p>
+    <p>
+        (2) In Fällen leichter Fahrlässigkeit haftet der Anbieter nur bei Verletzung wesentlicher Vertragspflichten (Kardinalpflichten). Die Haftung ist in diesem Fall auf den vertragstypischen und vorhersehbaren Schaden begrenzt.
+    </p>
+    <p>
+        (3) Eine weitergehende Haftung des Anbieters ist ausgeschlossen. Insbesondere übernimmt der Anbieter keine Haftung für die inhaltliche Richtigkeit der KI-Generierungen oder für die Versäumung von behördlichen Fristen durch den Nutzer, sofern dies nicht auf einer technischen Nichtverfügbarkeit der App beruht.
+    </p>
 
-<h2>6. Haftungsbeschränkung</h2>
-<p>6.1. Der Anbieter haftet unbeschränkt für Schäden aus der Verletzung des Lebens, des Körpers oder der Gesundheit, die auf einer vorsätzlichen oder fahrlässigen Pflichtverletzung des Anbieters beruhen.</p>
-<p>6.2. Für sonstige Schäden haftet der Anbieter nur, wenn sie auf einer vorsätzlichen oder grob fahrlässigen Pflichtverletzung beruhen.</p>
-<p>6.3. Für leichte Fahrlässigkeit haftet der Anbieter nur bei Verletzung wesentlicher Vertragspflichten (Kardinalpflichten). In diesem Fall ist die Haftung auf den vertragstypischen, vorhersehbaren Schaden begrenzt. Wesentliche Vertragspflichten sind solche, deren Erfüllung die ordnungsgemäße Durchführung des Vertrags überhaupt erst ermöglicht.</p>
-<p>6.4. <strong>Haftung für KI-Ergebnisse:</strong> Da die Antworten vollautomatisch durch eine KI generiert werden, übernimmt der Anbieter keine Haftung für die inhaltliche Richtigkeit, Vollständigkeit oder Aktualität der ausgegebenen Informationen. Der Nutzer ist verpflichtet, fristgebundene oder rechtliche Schritte (z.B. Widersprüche) eigenständig zu prüfen.</p>
+    <h2>§ 7 Datenschutz und Datenspeicherung</h2>
+    <p>
+        (1) Der Anbieter verarbeitet personenbezogene Daten des Nutzers unter Einhaltung der geltenden Datenschutzbestimmungen (DSGVO).
+    </p>
+    <p>
+        (2) Der Nutzer nimmt zur Kenntnis, dass zur Erbringung der Analyseleistung eine Übermittlung der Eingabedaten an Google Vertex AI erforderlich ist. Dies erfolgt auf Basis von Auftragsverarbeitungsverträgen und unter Nutzung angemessener Sicherheitsstandards. Näheres regelt die Datenschutzerklärung.
+    </p>
 
-<h2>7. Widerrufsrecht für Verbraucher</h2>
-<p>Soweit der Nutzer Verbraucher im Sinne des § 13 BGB ist und entgeltliche Leistungen bezieht, steht ihm ein gesetzliches Widerrufsrecht zu. Die Details ergeben sich aus der gesonderten <a href="#">Widerrufsbelehrung</a>.</p>
-<p><em>Hinweis: Das Widerrufsrecht kann bei digitalen Inhalten vorzeitig erlöschen, wenn der Nutzer der sofortigen Ausführung zugestimmt hat.</em></p>
-
-<h2>8. Datenschutz</h2>
-<p>Die Verarbeitung personenbezogener Daten erfolgt gemäß der Datenschutzerklärung. Der Nutzer wird darauf hingewiesen, dass zur Erbringung der Dienstleistung eine Übermittlung der Eingabedaten an den KI-Provider (Google Vertex AI) technisch notwendig ist.</p>
-
-<h2>9. Streitbeilegung</h2>
-<p>9.1. Die EU-Kommission stellt eine Plattform zur Online-Streitbeilegung (OS) bereit: <a href="https://ec.europa.eu/consumers/odr/" target="_blank">https://ec.europa.eu/consumers/odr/</a>.</p>
-<p>9.2. Der Anbieter ist weder bereit noch verpflichtet, an Streitbeilegungsverfahren vor einer Verbraucherschlichtungsstelle teilzunehmen.</p>
-
-<h2>10. Schlussbestimmungen</h2>
-<p>10.1. Es gilt das Recht der Bundesrepublik Deutschland unter Ausschluss des UN-Kaufrechts.</p>
-<p>10.2. Sollte eine Bestimmung dieser AGB unwirksam sein, bleibt der Vertrag im Übrigen wirksam.</p>
+    <h2>§ 8 Schlussbestimmungen</h2>
+    <p>
+        (1) Es gilt das Recht der Bundesrepublik Deutschland.
+    </p>
+    <p>
+        (2) Sollten einzelne Bestimmungen dieser AGB unwirksam sein oder werden, bleibt die Wirksamkeit der übrigen Bestimmungen unberührt.
+    </p>
+    <p>
+        (3) Die Europäische Kommission stellt eine Plattform zur Online-Streitbeilegung (OS) bereit, die unter <a href="https://ec.europa.eu/consumers/odr" target="_blank">https://ec.europa.eu/consumers/odr</a> zu finden ist.
+    </p>
 
 </body>
 </html>
